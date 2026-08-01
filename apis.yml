@@ -1,8 +1,26 @@
 aid: plural-finance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plural-finance.png
 name: Plural Finance
-description: 'Plural Finance is a company surfaced as a portfolio company of paradigm and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-defi. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Plural Finance is a financial operating system for infrastructure — a programmable
+  execution layer that automates ownership, payments, compliance, and reporting across the
+  lifecycle of infrastructure and energy assets. Its AssetOS platform tokenizes infrastructure
+  assets such as distributed renewables, data centers, public-private partnerships, and
+  electricity sales contracts, so institutional and individual investors can underwrite,
+  monitor, and trade projects, with smart-contract execution of capital contributions and
+  distributions and embedded regulatory controls. The company holds broker-dealer licensing
+  and is backed by Paradigm. Plural currently exposes no public developer API, SDK, or
+  documentation surface; access is through its institutional web application.'
 url: https://raw.githubusercontent.com/api-evangelist/plural-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto Defi
+- Tokenization
+- Infrastructure
+- Energy
+- Real World Assets
+- Financial Operating System
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/plural-finance-domain-security.yml
 - type: Website
   url: https://www.pluralfinance.com
+- type: Blog
+  url: https://www.pluralfinance.com/blog
+- type: TermsOfService
+  url: https://www.pluralfinance.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.pluralfinance.com/privacy-policy
+- type: Login
+  url: https://app.pluralfinance.com/login
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
